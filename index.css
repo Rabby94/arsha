@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0px;
+}
+
+/* ---------------------nav-------------------------------- */
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(rgba(55,81,126,0.9),rgba(55,81,126,0.9));
+  height: 80px;
+  position: sticky;
+  top: 0px;
+}
+.logo{
+  padding-left: 8%;
+  width: 30%;
+}
+.logo h1{
+color: white;
+font-size: 28px;
+font-family: 'Abel', sans-serif;
+}
+
+.manu ul li,a{
+  display: inline;
+  text-decoration: none;
+  padding-top: 5px;
+  font-size: 15px;
+  color: rgb(19, 18, 18);
+  padding-right: 13px;
+  color: white;
+  font-weight: 500;
+  justify-content: space-between;
+  font-family: 'Abel', sans-serif;
+  
+}
+.manu ul li,a:hover{
+  color: #31A9E1;
+  transition: 0.5;
+}
+
+.drop_down_manu{
+  display: flexbox;
+}
+.manu ul li :hover .drop_down_manu{
+  display: block;
+  position: absolute;
+  background: white;
+  color: aqua;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.manu ul li :hover.drop_down_manu ul li  {
+  display: block;
+  margin: 10px;
+
+}
+.button{
+  margin-right: 8%;
+  padding: 8px 15px;
+  border: 2px solid #31A9E1;
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: white;
+}
+.button:hover{
+  margin-right: 8%;
+  padding: 8px 15px;
+  border: 2px solid #31A9E1;
+  background-color: #31A9E1;
+  border-radius: 40px;
+  cursor: pointer;
+
+}
+
+/* ---------------------nav End-------------------------------- */
+
+.Hero_img{
+
+  width: 100%;
+  background-color: #37517E;
+  display: flex;
+  margin-top: -80px;
+  height: 70vh;
+  padding-top: 15vh;
+  
+}
+.contant{
+  width: 50%;
+  margin-left: 8%;
+}
+.Hero_img img{
+  width: 550px;
+  height: 400px;
+}
+.img{
+  
+  width: 50%;
+  float: right;
+  margin-right: 8%;
+
+}
