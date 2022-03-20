@@ -988,13 +988,14 @@ display: flex;
   }
  #question{
    background-color: #F3F5FA;
+   padding-bottom: 100px;
  }
  .ask{
    width: 70%;
    margin: -50px 15%;
  }
  .logo-ask{
-  display: flex;
+   display: flex;
   align-items: center;
   width: 100%;
   height: 60px;
@@ -1003,16 +1004,27 @@ display: flex;
   cursor: pointer;
  }
  .logo-ask-3{
- justify-content: right;
+ padding: 30px;
+ color: #37517E;
+ font-size: 15px;
  }
  .logo-ask:hover {
    color: #1695cf;
+   transition: 0.5s;
  }
  .logo-ask:hover a {
   color: #1695cf;
+  transition: 0.5s;
+}
+.logo-ask:hover i {
+  color: #1695cf;
+  transition: 0.5s;
+}
+.logo-as-2{
+
+  width: 94%;
 }
  .logo-as-2 a{
-   width: 94%;
    color: #37517E;
    font-size:18px;
    font-weight: 500;
@@ -1022,4 +1034,65 @@ display: flex;
    padding: 0px 10px;
    color: #1695cf;
  }
-  /* ----------------------------Pricing End ----------------------------------------------- */
+ #contact{
+   background-color: white;
+ }
+ .contact-information{
+
+   border-top: 4px solid #1695cf;
+   border-bottom: 4px solid #1695cf;
+   background-color: white;
+   box-shadow: 0px 10px 30px -20px;
+ }
+ .information-main{
+   display: flex;
+   margin: 20px 0px;
+   padding: 0px 20px;
+ }
+ .information-main:hover .information-logo{
+   background-color: #47b2e4;
+   color: white;
+   transition: 0.5s;
+ }
+ .information-logo{
+   width: 40px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+  justify-content: center;
+   border-radius: 50%;
+  background-color: #E7f5fb;
+  margin-right: 20px;
+  color: #37517E;
+
+ }
+ .information-logo i{
+  font-size: 25px;
+
+ }
+ .information-content h2{
+   font-size: 22px;
+   color: #37517E;
+   font-family: 'Jost', sans-serif;
+   margin-bottom: 5px;
+ }
+ .information-content p{
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #6182ba;
+  padding-right: 80px;
+}
+.mapouter{
+  padding:20px 20px 50px;
+  width: 100vh;
+}
+ /* ----------------------------Pricing End ----------------------------------------------- */
+
+ .contact-froms{
+  border-top: 4px solid #1695cf;
+  border-bottom: 4px solid #1695cf;
+  background-color: white;
+  box-shadow: 0px 10px 30px -20px;
+  margin-left: 30px; 
+  width: 100%;
+}
