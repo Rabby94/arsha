@@ -1149,6 +1149,15 @@ margin-left: 50px;
   font-size: 18px;
   font-family: 'Jost', sans-serif;
 }
+.Message textarea{
+  width: 100%;
+  margin: 10px 0px;
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 5px;
+  outline: none;
+  font-size: 18px;
+  font-family: 'Jost', sans-serif;
+}
 .contect-button{
   width: 100%;
   display: flex;
@@ -1229,7 +1238,91 @@ margin-left: 50px;
   background-color: #0987c2;
 }
 .sub-footer-container{
-  margin: 30px 9%;
+  margin: 0px 9%;
+  padding-top: 30px;
   display: flex;
   justify-content: space-between;
 }
+#sub-footer{
+  background-color: white;
+  padding: 30px 0px 60px 0px;
+}
+.cintainer-4{
+  width: 23%;
+}
+.cintainer-1 h1{
+  color: #37517E;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.cintainer-1 p{
+  font-weight: 500;
+  font-family: 'Jost', sans-serif;
+  opacity: 80%;
+  font-size: 15px;
+
+}
+.cintainer-2 h5 ,.cintainer-3 h5,.cintainer-4 h5{
+  font-size: 16px;
+  padding-bottom: 15px;
+  color: #37517E;
+  font-family: 'Jost', sans-serif;
+
+}
+.cintainer-2 ul li ,.cintainer-3 ul li{
+list-style: none;
+font-size: 16px;
+padding: 10px 0px;
+opacity: 80%;
+font-family: 'Jost', sans-serif;
+}
+.cintainer-2 ul li i ,.cintainer-3 ul li i{
+  color: #47B2E5;
+  font-size: 8px;
+}
+.icon-container{
+  margin: 20px 50px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.icon-container div{
+  background-color: #47B2E4;
+  height: 35px;
+  width: 70px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.icon-container div i{
+  color: white;
+  font-size: 16px;
+}
+.icon-container div:hover{
+  background-color: #209DD8;
+}
+/* -----------------------------------------------footer-------------------------------- */
+#footer{
+  width: 100%;
+  height: 80px;
+  background-color: #37517E;
+  padding: 0%  9%;
+  display: flex;
+  align-items: center;
+}
+#footer div{
+  color: white;
+  font-size: 16px;
+}
+.desing{
+  position: absolute;
+  right: 0;
+margin-right: 110px;  
+}
+.desing span{
+  color: #209DD8;
+}
+/* -----------------------------------------------footer End -------------------------------- */
